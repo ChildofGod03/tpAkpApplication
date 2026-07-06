@@ -4,7 +4,8 @@
     <persistence-unit name="customerPU">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <jta-data-source>jdbc/customer</jta-data-source>
-    <properties name="eclipelink.logging.level" value="Fine"/>
+    <properties>
+    <property name="eclipelink.logging.level" value="Fine"/>
     </properties>
     </persistence-unit>
 </persistence>
